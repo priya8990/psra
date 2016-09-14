@@ -1,4 +1,4 @@
-# Change these
+
 server '104.131.68.232', port: 80, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git://github.com:priya8990/psra.git'
