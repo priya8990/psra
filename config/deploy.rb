@@ -4,6 +4,7 @@ server '104.131.68.232', port: 80, roles: [:web, :app, :db], primary: true
 set :repo_url,        'git://github.com:priya8990/psra.git'
 set :application,     'psra'
 set :user,            'demo'
+ffeefe9a42b5fb112b223e11cb6dff844adb4ded
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
